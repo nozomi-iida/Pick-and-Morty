@@ -5,7 +5,7 @@ export default ():JSX.Element => {
   const store = useContext(Store);
   return(
     <Fragment>
-      {console.log(store)};
+      {console.log(store)}
       <h1>Pick and Morty</h1>
       <p>Pick your favorite episode!!!</p>
     </Fragment>
