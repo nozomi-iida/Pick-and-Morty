@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-export default () => {
+export default ():JSX.Element => {
   return(
     <Fragment>
       <h1>Pick and Morty</h1>
